@@ -1,3 +1,5 @@
+React native example of real world application.
+
 # Getting Started
 
 - To start developing follow the instructions below
