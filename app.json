@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "mol-birja",
+    "slug": "mol-birja",
+    "owner": "devops.eurodesign",
+    "version": "7.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eurodesign.bjmobile"
+    },
+    "android": {
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "versionCode": 7,
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.eurodesign.bjmobile",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB0mrlIsu4-YIRMvolj_U3z-u9kRQsapkc"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "plugins": [
+      "sentry-expo",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "eurodesign-csc",
+            "project": "mol-birja",
+            "authToken": "728f881b95e747c1bce5c5ca13d63c8d25a0d85ea72540dd9afbba189bb615fe"
+          }
+        }
+      ]
+    }
+  }
+}

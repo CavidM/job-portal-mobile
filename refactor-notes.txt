@@ -1,0 +1,15 @@
+1. move all pages related to registration flow to separate folder under pages
+    Example: /pages/registration OR /pages/auth OR pages/guest
+2. Yeni ui framework
+4. Complete accessibility
+3. Select picker, accessibility,
+4. Keyboard Avoiding view
+5. Check todo list ...
+6. Complete integration tests
+7. Check storybook stories. (story by story)
+9. Reduce complexity of registration form contexts, context counts and sizes.
+10. Translate labels (edit, delete...)
+12. Add one layer between Langs and consumer. One abstraction needed for create multilingual.
+    In the future, it will be easy to migrate to the new api,
+
+1. Create button which will accessible from everywhere to clear secure storage.

@@ -1,0 +1,24 @@
+import '../../src/components/button/Button.stories';
+import '../../src/components/button-steps/ButtonSteps.stories';
+import '../../src/pages/entry-auth/EntryAuth.stories';
+import '../../src/pages/registration-screens/register-user-type/RegisterUserType.stories';
+import '../../src/pages/common/verification-otp/VerificationOtp.stories';
+import '../../src/components/Input/Input.stories';
+import '../../src/components/otp-inputs/OtpInputs.stories';
+import '../../src/components/CountdownTimer/CountdownTimer.stories';
+import '../../src/components/Datepicker/Datepicker.stories';
+import '../../src/components/MaskedInput/MaskedInput.stories';
+import '../../src/components/PickerSelect/PickerSelect.stories';
+import '../../src/components/ImagePicker/ImagePicker.stories';
+import '../../src/components/Loader/Loader.stories';
+import '../../src/components/Accordion/Accordion.stories';
+import '../../src/components/Card/CardList.stories';
+import '../../src/components/SearchComponent/SearchComponents.stories';
+import '../../src/components/Slider/Slider.stories.tsx';
+import '../../src/components/Counter/Counter.stories';
+import '../../src/components/Checkbox/Checkbox.stories';
+import '../../src/components/Dropdown/Dropdown.stories';
+import '../../src/pages/customer-screens/service-order/users-search-form/UsersSearchForm.stories';
+import '../../src/pages/customer-screens/service-order/users-search-result/UsersSearchResultItem.stories';
+
+// import './Welcome/Welcome.stories';
